@@ -29,7 +29,7 @@ clean:
 	$(RM) $(ASOURCES:.s=.o) $(SOURCES:.c=.o) $(SOURCES:.c=.d) $(PROGRAM) $(PROGRAM).map $(PROGRAM).lbl $(DISK)
 
 run: all
-	x64 $(PROGRAM)
+	x64 -rsuser -rsuserbaud 1200 -rsuserdev 1 -rsdev1 serial.txt $(PROGRAM)
 
 
 .PHONY: disk
