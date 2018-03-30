@@ -18,6 +18,5 @@ int main (void)
     us_printf("Test %d\n", c);
   }
 
-
   return 0;
 }

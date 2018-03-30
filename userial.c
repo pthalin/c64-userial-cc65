@@ -8,7 +8,7 @@ char** RIBUF = (char**)0x00f7;
 char** ROBUF = (char**)0x00f9;
 
 //bypass cc65 Charter translation
-unsigned char us_name1200[] = {0x08, 0x00, 0x00}; //1200 8N1
+static unsigned char us_name1200[] = {0x08, 0x00, 0x00}; //1200 8N1
 
 char us_buffer[256];
 
@@ -25,13 +25,14 @@ void us_printf( const char * format, ... )
   va_list args;
   va_start (args, format);
   vsprintf (us_buffer,format, args);
- 
+  cbm_k_ckout(2);
+
   while(k<255) 
   {
     c = us_buffer[k];
     if (c == NULL)
       break;
-    us_putc(c);
+    cbm_k_bsout(c);
     ++k;
   }
   va_end (args);
