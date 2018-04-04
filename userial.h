@@ -3,7 +3,13 @@
 
 void us_putc(char c);
 
-void us_printf( const char * format, ... );
+char us_getc();
+
+void us_read(char* str, unsigned char len);
+
+void us_printf(const char* format, ... );
+
+void us_aprintf(const char* format, ... );
 
 void us_init();
 

@@ -1,0 +1,651 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=000056  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000033  Align=00001  Fill=0000
+userial.o:
+    CODE              Offs=000056  Size=000298  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000500  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000007  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_directerrno.o):
+    CODE              Offs=0002EE  Size=00000A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_file.o):
+    DATA              Offs=000007  Size=00001E  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_hextab.o):
+    RODATA            Offs=000033  Size=000010  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_longminstr.o):
+    RODATA            Offs=000043  Size=00000C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_mappederrno.o):
+    CODE              Offs=0002F8  Size=000010  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_oserror.o):
+    BSS               Offs=000500  Size=000001  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_printf.o):
+    CODE              Offs=000308  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=000501  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=000025  Size=000003  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(_seterrno.o):
+    CODE              Offs=0006AD  Size=000009  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(add.o):
+    CODE              Offs=0006B6  Size=00001C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(addysp.o):
+    CODE              Offs=0006D2  Size=00000E  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(axlong.o):
+    CODE              Offs=0006E0  Size=00000D  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_bsout.o):
+/home/pi/cc65/lib/c64.lib(c_chkin.o):
+    CODE              Offs=0006ED  Size=00000A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_ckout.o):
+    CODE              Offs=0006F7  Size=00000A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_clrch.o):
+/home/pi/cc65/lib/c64.lib(c_getin.o):
+    CODE              Offs=000701  Size=000006  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_open.o):
+    CODE              Offs=000707  Size=000009  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_setlfs.o):
+    CODE              Offs=000710  Size=00000E  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(c_setnam.o):
+    CODE              Offs=00071E  Size=000013  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(callmain.o):
+    CODE              Offs=000731  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=000028  Size=000004  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(condes.o):
+    CODE              Offs=000748  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00002C  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(crt0.o):
+    STARTUP           Offs=000000  Size=000033  Align=00001  Fill=0000
+    ONCE              Offs=00000C  Size=00001A  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(ctype.o):
+    RODATA            Offs=00004F  Size=000100  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(decsp1.o):
+    CODE              Offs=000754  Size=000009  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(decsp3.o):
+    CODE              Offs=00075D  Size=00000D  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(decsp4.o):
+    CODE              Offs=00076A  Size=00000D  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(decsp6.o):
+    CODE              Offs=000777  Size=00000D  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(enter.o):
+    CODE              Offs=000784  Size=00000E  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(errno.o):
+    BSS               Offs=00052C  Size=000002  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(exehdr.o):
+    EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(filedes.o):
+    CODE              Offs=000792  Size=00000E  Align=00001  Fill=0000
+    DATA              Offs=000051  Size=000010  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(fwrite.o):
+    CODE              Offs=0007A0  Size=00007B  Align=00001  Fill=0000
+    BSS               Offs=00052E  Size=000002  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incax3.o):
+    CODE              Offs=00081B  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incax5.o):
+    CODE              Offs=000820  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incaxy.o):
+    CODE              Offs=000825  Size=00000B  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incsp1.o):
+    CODE              Offs=000830  Size=000007  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incsp2.o):
+    CODE              Offs=000837  Size=000016  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incsp4.o):
+    CODE              Offs=00084D  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incsp5.o):
+    CODE              Offs=000852  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(incsp6.o):
+    CODE              Offs=000857  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(kernal.o):
+/home/pi/cc65/lib/c64.lib(ldaxsp.o):
+    CODE              Offs=00085C  Size=000009  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(leaaxsp.o):
+    CODE              Offs=000865  Size=00000C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(leave.o):
+    CODE              Offs=000871  Size=00001D  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(loadaddr.o):
+    LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(lpush.o):
+    CODE              Offs=00088E  Size=000021  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(ltoa.o):
+    CODE              Offs=0008AF  Size=0000AF  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(memcpy.o):
+    CODE              Offs=00095E  Size=000041  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(mul.o):
+    CODE              Offs=00099F  Size=000045  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(mul8.o):
+    CODE              Offs=0009E4  Size=00003A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(oserror.o):
+    CODE              Offs=000A1E  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=00014F  Size=00005A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(popa.o):
+    CODE              Offs=000A34  Size=00000C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(popsreg.o):
+    CODE              Offs=000A40  Size=000010  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(printf.o):
+    CODE              Offs=000A50  Size=000033  Align=00001  Fill=0000
+    BSS               Offs=000530  Size=000001  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(push1.o):
+    CODE              Offs=000A83  Size=000005  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(pusha.o):
+    CODE              Offs=000A88  Size=000016  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(pushax.o):
+    CODE              Offs=000A9E  Size=00001A  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(pushw.o):
+    CODE              Offs=000AB8  Size=00000F  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(pushwsp.o):
+    CODE              Offs=000AC7  Size=00001C  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(rwcommon.o):
+    CODE              Offs=000AE3  Size=000022  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(status.o):
+/home/pi/cc65/lib/c64.lib(staxsp.o):
+    CODE              Offs=000B05  Size=00000B  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(strlen.o):
+    CODE              Offs=000B10  Size=000016  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(strlower.o):
+    CODE              Offs=000B26  Size=000028  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(udiv.o):
+    CODE              Offs=000B4E  Size=00004F  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(vfprintf.o):
+    CODE              Offs=000B9D  Size=000061  Align=00001  Fill=0000
+    DATA              Offs=000061  Size=000008  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(vsnprintf.o):
+    CODE              Offs=000BFE  Size=0000DA  Align=00001  Fill=0000
+    DATA              Offs=000069  Size=000008  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(vsprintf.o):
+    CODE              Offs=000CD8  Size=000012  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(write.o):
+    CODE              Offs=000CEA  Size=000054  Align=00001  Fill=0000
+    ONCE              Offs=000026  Size=000011  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(zerobss.o):
+    CODE              Offs=000D3E  Size=000023  Align=00001  Fill=0000
+/home/pi/cc65/lib/c64.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000002  00001B  00001A  00001
+LOADADDR              0007FF  000800  000002  00001
+EXEHDR                000801  00080C  00000C  00001
+STARTUP               00080D  00083F  000033  00001
+CODE                  000840  0015A0  000D61  00001
+RODATA                0015A1  001749  0001A9  00001
+DATA                  00174A  0017BA  000071  00001
+INIT                  0017BB  0017D6  00001C  00001
+BSS                   0017D7  001D07  000531  00001
+ONCE                  0017D7  00180F  000039  00001
+
+
+Exports list by name:
+---------------------
+BSOUT                     00FFD2 REA    CHKIN                     00FFC6 REA    
+CKOUT                     00FFC9 REA    CLRCH                     00FFCC REA    
+GETIN                     00FFE4 REA    OPEN                      00FFC0 REA    
+READST                    00FFB7 REA    SETLFS                    00FFBA REA    
+SETNAM                    00FFBD REA    ST                        000090 RLZ    
+__BSS_RUN__               0017D7 RLA    __BSS_SIZE__              000531 REA    
+__CONSTRUCTOR_COUNT__     000001 REA    __CONSTRUCTOR_TABLE__     00180E RLA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      00174A RLA    
+__EXEHDR__                000001 REA    __HEADER_LAST__           00080D RLA    
+__HIMEM__                 00D000 REA    __LOADADDR__              000001 REA    
+__MAIN_SIZE__             00C7F3 REA    __MAIN_START__            00080D RLA    
+__ONCE_RUN__              0017D7 RLA    __STACKSIZE__             000800 REA    
+__STARTUP__               000001 REA    __ctype                   0015F0 RLA    
+__directerrno             000B2E RLA    __errno                   001D03 RLA    
+__hextab                  0015D4 RLA    __longminstr              0015E4 RLA    
+__mappederrno             000B38 RLA    __oserror                 001CD7 RLA    
+__osmaperrno              00125E RLA    __printf                  000C3B RLA    
+__seterrno                000EED RLA    _cbm_k_bsout              00FFD2 REA    
+_cbm_k_chkin              000F2D RLA    _cbm_k_ckout              000F37 RLA    
+_cbm_k_clrch              00FFCC REA    _cbm_k_getin              000F41 RLA    
+_cbm_k_open               000F47 RLA    _cbm_k_setlfs             000F50 RLA    
+_cbm_k_setnam             000F5E RLA    _fwrite                   000FE0 RLA    
+_ltoa                     00110B RLA    _main                     000840 RLA    
+_memcpy                   00119E RLA    _printf                   001290 RLA    
+_stdout                   00176B RLA    _strlen                   001350 RLA    
+_strlower                 001366 RLA    _ultoa                    001162 RLA    
+_us_aprintf               0009EA RLA    _us_init                  000A57 RLA    
+_vfprintf                 001415 RLA    _vsprintf                 001518 RLA    
+_write                    00152A RLA    addysp                    000F13 RLA    
+axlong                    000F20 RLA    axulong                   000F26 RLA    
+callmain                  000F71 RLA    decsp1                    000F94 RLA    
+decsp3                    000F9D RLA    decsp4                    000FAA RLA    
+decsp6                    000FB7 RLA    donelib                   000F88 RLA    
+enter                     000FC4 RLA    fdtab                     00179B RLA    
+incax3                    00105B RLA    incax5                    001060 RLA    
+incaxy                    001067 RLA    incsp1                    001070 RLA    
+incsp2                    00107F RLA    incsp4                    00108D RLA    
+incsp5                    001092 RLA    incsp6                    001097 RLA    
+initlib                   0017D7 RLA    initstdout                0017FD  LAI   
+ldaxysp                   00109E RLA    leaa0sp                   0010A5 RLA    
+leavey                    0010BB RLA    mul8x16                   001226 RLA    
+mul8x16a                  001231 RLA    popa                      001274 RLA    
+popax                     001077 RLA    popsreg                   001280 RLA    
+ptr1                      00000A RLZ    ptr2                      00000C RLZ    
+ptr3                      00000E RLZ    ptr4                      000010 RLZ    
+push1                     0012C3 RLA    pusha                     0012CC RLA    
+pusha0                    0012E0 RLA    pushax                    0012E2 RLA    
+pusheax                   0010D7 RLA    pushw                     0012F8 RLA    
+pushw0sp                  001307 RLA    pushwysp                  001309 RLA    
+regbank                   000016 RLZ    rwcommon                  001323 RLA    
+sp                        000002 RLZ    sreg                      000004 RLZ    
+stax0sp                   001345 RLA    staxysp                   001347 RLA    
+tmp1                      000012 RLZ    tmp2                      000013 RLZ    
+tosadda0                  000EF6 RLA    tosudivax                 001390 RLA    
+tosumulax                 0011DF RLA    vsnprintf                 001441 RLA    
+zerobss                   00157E RLA    
+
+
+Exports list by value:
+----------------------
+__DESTRUCTOR_COUNT__      000000 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__EXEHDR__                000001 REA    __LOADADDR__              000001 REA    
+__STARTUP__               000001 REA    sp                        000002 RLZ    
+sreg                      000004 RLZ    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    tmp1                      000012 RLZ    
+tmp2                      000013 RLZ    regbank                   000016 RLZ    
+ST                        000090 RLZ    __BSS_SIZE__              000531 REA    
+__STACKSIZE__             000800 REA    __HEADER_LAST__           00080D RLA    
+__MAIN_START__            00080D RLA    _main                     000840 RLA    
+_us_aprintf               0009EA RLA    _us_init                  000A57 RLA    
+__directerrno             000B2E RLA    __mappederrno             000B38 RLA    
+__printf                  000C3B RLA    __seterrno                000EED RLA    
+tosadda0                  000EF6 RLA    addysp                    000F13 RLA    
+axlong                    000F20 RLA    axulong                   000F26 RLA    
+_cbm_k_chkin              000F2D RLA    _cbm_k_ckout              000F37 RLA    
+_cbm_k_getin              000F41 RLA    _cbm_k_open               000F47 RLA    
+_cbm_k_setlfs             000F50 RLA    _cbm_k_setnam             000F5E RLA    
+callmain                  000F71 RLA    donelib                   000F88 RLA    
+decsp1                    000F94 RLA    decsp3                    000F9D RLA    
+decsp4                    000FAA RLA    decsp6                    000FB7 RLA    
+enter                     000FC4 RLA    _fwrite                   000FE0 RLA    
+incax3                    00105B RLA    incax5                    001060 RLA    
+incaxy                    001067 RLA    incsp1                    001070 RLA    
+popax                     001077 RLA    incsp2                    00107F RLA    
+incsp4                    00108D RLA    incsp5                    001092 RLA    
+incsp6                    001097 RLA    ldaxysp                   00109E RLA    
+leaa0sp                   0010A5 RLA    leavey                    0010BB RLA    
+pusheax                   0010D7 RLA    _ltoa                     00110B RLA    
+_ultoa                    001162 RLA    _memcpy                   00119E RLA    
+tosumulax                 0011DF RLA    mul8x16                   001226 RLA    
+mul8x16a                  001231 RLA    __osmaperrno              00125E RLA    
+popa                      001274 RLA    popsreg                   001280 RLA    
+_printf                   001290 RLA    push1                     0012C3 RLA    
+pusha                     0012CC RLA    pusha0                    0012E0 RLA    
+pushax                    0012E2 RLA    pushw                     0012F8 RLA    
+pushw0sp                  001307 RLA    pushwysp                  001309 RLA    
+rwcommon                  001323 RLA    stax0sp                   001345 RLA    
+staxysp                   001347 RLA    _strlen                   001350 RLA    
+_strlower                 001366 RLA    tosudivax                 001390 RLA    
+_vfprintf                 001415 RLA    vsnprintf                 001441 RLA    
+_vsprintf                 001518 RLA    _write                    00152A RLA    
+zerobss                   00157E RLA    __hextab                  0015D4 RLA    
+__longminstr              0015E4 RLA    __ctype                   0015F0 RLA    
+__DESTRUCTOR_TABLE__      00174A RLA    _stdout                   00176B RLA    
+fdtab                     00179B RLA    __BSS_RUN__               0017D7 RLA    
+__ONCE_RUN__              0017D7 RLA    initlib                   0017D7 RLA    
+initstdout                0017FD  LAI   __CONSTRUCTOR_TABLE__     00180E RLA    
+__oserror                 001CD7 RLA    __errno                   001D03 RLA    
+__MAIN_SIZE__             00C7F3 REA    __HIMEM__                 00D000 REA    
+READST                    00FFB7 REA    SETLFS                    00FFBA REA    
+SETNAM                    00FFBD REA    OPEN                      00FFC0 REA    
+CHKIN                     00FFC6 REA    CKOUT                     00FFC9 REA    
+CLRCH                     00FFCC REA    _cbm_k_clrch              00FFCC REA    
+BSOUT                     00FFD2 REA    _cbm_k_bsout              00FFD2 REA    
+GETIN                     00FFE4 REA    
+
+
+Imports list:
+-------------
+BSOUT (kernal.o):
+    write.o                   cbm/write.s(10)
+    crt0.o                    c64/crt0.s(10)
+    c_bsout.o                 cbm/c_bsout.s(8)
+CHKIN (kernal.o):
+    c_chkin.o                 cbm/c_chkin.s(8)
+CKOUT (kernal.o):
+    write.o                   cbm/write.s(10)
+    c_ckout.o                 cbm/c_ckout.s(8)
+CLRCH (kernal.o):
+    write.o                   cbm/write.s(10)
+    c_clrch.o                 cbm/c_clrch.s(8)
+GETIN (kernal.o):
+    c_getin.o                 cbm/c_getin.s(8)
+OPEN (kernal.o):
+    write.o                   cbm/write.s(10)
+    c_open.o                  cbm/c_open.s(8)
+READST (kernal.o):
+    write.o                   cbm/write.s(10)
+SETLFS (kernal.o):
+    write.o                   cbm/write.s(10)
+    c_setlfs.o                cbm/c_setlfs.s(10)
+SETNAM (kernal.o):
+    c_setnam.o                cbm/c_setnam.s(8)
+ST (status.o):
+    crt0.o                    c64/crt0.s(13)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(6)
+__HEADER_LAST__ ([linker generated]):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(14)
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(14)
+__HIMEM__ ([linker generated]):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(15)
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(14)
+__LOADADDR__ (loadaddr.o):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(5)
+__MAIN_SIZE__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__MAIN_START__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__ONCE_RUN__ ([linker generated]):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(15)
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(15)
+__STACKSIZE__ ([linker generated]):
+    [linker generated]        /home/pi/cc65/cfg/c64.cfg(15)
+__STARTUP__ (crt0.o):
+    main.o                    main.s(18)
+__ctype (ctype.o):
+    strlower.o                common/strlower.s(13)
+__directerrno (_directerrno.o):
+    write.o                   /home/pi/cc65/asminc/errno.inc(10)
+    vsnprintf.o               /home/pi/cc65/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /home/pi/cc65/asminc/errno.inc(7)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__mappederrno (_mappederrno.o):
+    write.o                   /home/pi/cc65/asminc/errno.inc(10)
+__oserror (_oserror.o):
+    _mappederrno.o            /home/pi/cc65/asminc/errno.inc(7)
+    _directerrno.o            /home/pi/cc65/asminc/errno.inc(7)
+    write.o                   /home/pi/cc65/asminc/errno.inc(7)
+__osmaperrno (oserror.o):
+    _mappederrno.o            /home/pi/cc65/asminc/errno.inc(8)
+__printf (_printf.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+    vfprintf.o                common/vfprintf.s(10)
+__seterrno (_seterrno.o):
+    _mappederrno.o            /home/pi/cc65/asminc/errno.inc(9)
+    _directerrno.o            /home/pi/cc65/asminc/errno.inc(9)
+    fwrite.o                  /home/pi/cc65/asminc/errno.inc(9)
+_cbm_k_bsout (c_bsout.o):
+    userial.o                 userial.s(33)
+_cbm_k_chkin (c_chkin.o):
+    userial.o                 userial.s(34)
+_cbm_k_ckout (c_ckout.o):
+    userial.o                 userial.s(35)
+_cbm_k_clrch (c_clrch.o):
+    userial.o                 userial.s(36)
+_cbm_k_getin (c_getin.o):
+    userial.o                 userial.s(37)
+_cbm_k_open (c_open.o):
+    userial.o                 userial.s(38)
+_cbm_k_setlfs (c_setlfs.o):
+    userial.o                 userial.s(39)
+_cbm_k_setnam (c_setnam.o):
+    userial.o                 userial.s(40)
+_fwrite (fwrite.o):
+    vfprintf.o                common/vfprintf.s(10)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_main (main.o):
+    callmain.o                runtime/callmain.s(11)
+_memcpy (memcpy.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+_printf (printf.o):
+    main.o                    main.s(22)
+_stdout (_file.o):
+    printf.o                  common/printf.s(8)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_us_aprintf (userial.o):
+    main.o                    main.s(23)
+_us_init (userial.o):
+    main.o                    main.s(24)
+_vfprintf (vfprintf.o):
+    printf.o                  common/printf.s(8)
+_vsprintf (vsprintf.o):
+    userial.o                 userial.s(32)
+_write (write.o):
+    fwrite.o                  common/fwrite.s(10)
+addysp (addysp.o):
+    incsp6.o                  runtime/incsp6.s(8)
+    fwrite.o                  common/fwrite.s(11)
+    printf.o                  common/printf.s(8)
+    leave.o                   runtime/leave.s(14)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+callmain (callmain.o):
+    crt0.o                    c64/crt0.s(9)
+decsp1 (decsp1.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+decsp3 (decsp3.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s(12)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
+donelib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+enter (enter.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+fdtab (filedes.o):
+    write.o                   cbm/filedes.inc(7)
+incax3 (incax3.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+incax5 (incax5.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+incaxy (incaxy.o):
+    incax5.o                  runtime/incax5.s(8)
+    incax3.o                  runtime/incax3.s(8)
+incsp1 (incsp1.o):
+    userial.o                 userial.s(613)
+    main.o                    main.s(104)
+incsp2 (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    popsreg.o                 runtime/popsreg.s(8)
+incsp4 (incsp4.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+incsp5 (incsp5.o):
+    userial.o                 userial.s(613)
+incsp6 (incsp6.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    fwrite.o                  common/fwrite.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+initlib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+ldaxysp (ldaxsp.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    fwrite.o                  common/fwrite.s(11)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+leaa0sp (leaaxsp.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+leavey (leave.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s(8)
+popa (popa.o):
+    c_setlfs.o                cbm/c_setlfs.s(11)
+popax (incsp2.o):
+    rwcommon.o                cbm/rwcommon.s(9)
+    memcpy.o                  common/memcpy.s(14)
+    vsnprintf.o               common/vsnprintf.s(9)
+    ltoa.o                    common/ltoa.s(9)
+    _printf.o                 common/_printf.s(11)
+popsreg (popsreg.o):
+    udiv.o                    runtime/udiv.s(8)
+    mul8.o                    runtime/mul8.s(9)
+    mul.o                     runtime/mul.s(9)
+ptr1 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    memcpy.o                  common/memcpy.s(15)
+    write.o                   cbm/write.s(12)
+    vsnprintf.o               common/vsnprintf.s(11)
+    udiv.o                    runtime/udiv.s(9)
+    strlower.o                common/strlower.s(14)
+    strlen.o                  common/strlen.s(12)
+    ltoa.o                    common/ltoa.s(11)
+    fwrite.o                  common/fwrite.s(14)
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(12)
+    zerobss.o                 common/zerobss.s(9)
+    vfprintf.o                common/vfprintf.s(11)
+    pushw.o                   runtime/pushw.s(9)
+    printf.o                  common/printf.s(9)
+    c_setnam.o                cbm/c_setnam.s(9)
+    userial.o                 userial.s(11)
+ptr2 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    memcpy.o                  common/memcpy.s(15)
+    write.o                   cbm/write.s(12)
+    strlower.o                common/strlower.s(14)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(12)
+ptr3 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    memcpy.o                  common/memcpy.s(15)
+    write.o                   cbm/write.s(12)
+    ltoa.o                    common/ltoa.s(11)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+pusha (pusha.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    main.o                    main.s(104)
+pusha0 (pushax.o):
+    push1.o                   runtime/push1.s(8)
+    main.o                    main.s(104)
+pushax (pushax.o):
+    fwrite.o                  common/fwrite.s(11)
+    callmain.o                runtime/callmain.s(11)
+    _printf.o                 common/_printf.s(11)
+    pushw.o                   runtime/pushw.s(8)
+    printf.o                  common/printf.s(8)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+    main.o                    main.s(104)
+pusheax (lpush.o):
+    _printf.o                 common/_printf.s(11)
+pushw (pushw.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+pushw0sp (pushwsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+pushwysp (pushwsp.o):
+    fwrite.o                  common/fwrite.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+    userial.o                 userial.s(613)
+regbank (zeropage.o):
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(14)
+rwcommon (rwcommon.o):
+    write.o                   cbm/write.s(11)
+sp (zeropage.o):
+    memcpy.o                  common/memcpy.s(15)
+    decsp4.o                  runtime/decsp4.s(8)
+    vsnprintf.o               common/vsnprintf.s(11)
+    popsreg.o                 runtime/popsreg.s(9)
+    lpush.o                   runtime/lpush.s(13)
+    incsp2.o                  runtime/incsp2.s(8)
+    decsp6.o                  runtime/decsp6.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(11)
+    vfprintf.o                common/vfprintf.s(11)
+    staxsp.o                  runtime/staxsp.s(8)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    printf.o                  common/printf.s(9)
+    popa.o                    runtime/popa.s(8)
+    leave.o                   runtime/leave.s(15)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    enter.o                   runtime/enter.s(8)
+    decsp3.o                  runtime/decsp3.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /home/pi/cc65/asminc/zeropage.inc(11)
+    add.o                     runtime/add.s(12)
+    userial.o                 userial.s(10)
+    main.o                    main.s(10)
+sreg (zeropage.o):
+    udiv.o                    runtime/udiv.s(9)
+    popsreg.o                 runtime/popsreg.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    ltoa.o                    common/ltoa.s(11)
+    lpush.o                   runtime/lpush.s(13)
+    axlong.o                  runtime/axlong.s(9)
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(11)
+stax0sp (staxsp.o):
+    userial.o                 userial.s(613)
+    userial.o                 userial.s(613)
+staxysp (staxsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+tmp1 (zeropage.o):
+    mul.o                     runtime/mul.s(10)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/pi/cc65/asminc/zeropage.inc(13)
+    incaxy.o                  runtime/incaxy.s(8)
+    c_setlfs.o                cbm/c_setlfs.s(12)
+    add.o                     runtime/add.s(12)
+tmp2 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+tosadda0 (add.o):
+    userial.o                 userial.s(613)
+tosudivax (udiv.o):
+    fwrite.o                  common/fwrite.s(12)
+tosumulax (mul.o):
+    fwrite.o                  common/fwrite.s(12)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                common/vsprintf.s(9)
+zerobss (zerobss.o):
+    crt0.o                    c64/crt0.s(9)
+

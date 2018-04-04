@@ -10,12 +10,13 @@ int main (void)
   us_init();
 
   printf ("Writing to serial port\r\n");
-  us_printf("%s", test);
+  
+  us_aprintf("%s", test);
 
 
   for(c=0; c<11; ++c)
   {
-    us_printf("Test %d\n", c);
+    us_aprintf("Test %d\n", c);
   }
 
   return 0;
